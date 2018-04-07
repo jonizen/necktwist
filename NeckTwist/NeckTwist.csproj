@@ -15,6 +15,7 @@
 
 
 <Target Name="AngularBuild" AfterTargets="Build">
+  <Exec Command="npm install --prefix AdminGUI" />
   <Exec Command="npm run build --prefix AdminGUI" />
 </Target>
 
