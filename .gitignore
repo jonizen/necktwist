@@ -5,9 +5,7 @@
 [Oo]bj/
 [Bb]in/
 packages/
-TestResults/
 
-# globs
 Makefile.in
 *.DS_Store
 *.sln.cache
@@ -16,17 +14,6 @@ Makefile.in
 *.pidb
 *.userprefs
 *.usertasks
-config.log
-config.make
-config.status
-aclocal.m4
-install-sh
-autom4te.cache/
-*.user
-*.tar.gz
-tarballs/
-test-results/
-Thumbs.db
 .vs/
 
 # Mac bundle stuff
@@ -39,8 +26,6 @@ Thumbs.db
 
 # dotCover
 *.dotCover
-
-# See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
 /dist
@@ -84,3 +69,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+node_modules/
